@@ -22,7 +22,9 @@ To clone your repository, we need to get its address. Do this by navigating to y
 
 ![repository address](https://github.com/SOS598-RDM/submitting_homework_demo/figures/repo_address.png)
 
+![repository address](submitting_homework_demo/figures/repo_address.png)
 
+ submitting_homework_demo/figures/repo_address.png 
 
 ## populate your repository
 
