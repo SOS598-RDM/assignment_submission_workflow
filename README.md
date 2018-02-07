@@ -20,11 +20,18 @@ GitHub (GH) is a cloud-based service. In this sense, we can think of GH kind of 
 
 To clone your repository, we need to get its address. Do this by navigating to your repository, and clicking on the green 'Clone or download' button. This will bring up a dialog box that display the address of your repository. While this dialog box is open, clicking on the small icon that resembles a clipboard will copy the address to your computer's clip board.
 
+one
 ![repository address](https://github.com/SOS598-RDM/submitting_homework_demo/figures/repo_address.png)
 
+two
 ![repository address](submitting_homework_demo/figures/repo_address.png)
 
- submitting_homework_demo/figures/repo_address.png 
+three
+![repository address](https://github.com/SOS598-RDM/submitting_homework_demo/blob/master/figures/repo_address.png)
+
+four
+![repository address](figures/repo_address.png)
+
 
 ## populate your repository
 
