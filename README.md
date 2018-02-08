@@ -140,6 +140,19 @@ When we are ready to PUSH the files and all associated changes we have made to o
 **Push to GitHub in GitKraken**
 ![push](figures/gitkraken_push.png)
 
+If all went well, you should see a small pop-up in GitKraken indicating that you successfully pushed the repository to GitHub. Now, we can go to that repository in GitHub to view the changes. Navigate to your repository in GitHub. If you already had it open, you may have to refresh the browser by clicking on the link to the repository or using the refresh button in your browser. You should now see the file that you added, staged, committed, and pushed in your repository.
+
+**New file added to our GitHub repository**
+![gitkraken_push](figures/changes_in_github.png)
+
+In this case, because the file we added is a markdown file, clicking the link to the file in GitHub will open the file in the GitHub viewer. Note the markdown codes (headers, italics) are rendered in the viewer.
+
+**Our newly added file displayed in GitHub**
+![markdown_in_github](figures/markdown_in_github.png)
+
 
 ## open a GitHub issue when assignment is complete
+
+
+
 ## submit peer review by opening a GitHub issue
