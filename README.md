@@ -82,7 +82,7 @@ With TextEdit, we need to perform the preliminary step of telling TextEdit that 
 
 Now we can begin creating our markdown document. Markdown itself is outside the scope of this overview, but please read the *introduction/overview* and *reference sheet* materials on under the *resources/markdown* section of the main page of the course website.
 
-**In this simple markdown document, the # symbol is a marker to create a header one <h1>, and the asterisks surrounding our Mayfly genus is a marker to italicize that word.**
+**In this simple markdown document, the \# symbol is a marker to create a header one <h1>, and the asterisks surrounding our Mayfly genus is a marker to italicize that word.**
 ![simple_markdown](figures/simple_markdown.png)
 
 When ready, save the document to the directory on our computer that is a clone of the GitHub repository. There are additional steps that we need to do with Mac's TextEdit when saving:
@@ -116,7 +116,7 @@ To create a snapshot of the repository, we first need to stage the files that we
 **Staging in GitKraken**
 ![stage_file](figures/stage_file.png)
 
-Once we have staged the file, it will moved to the Staged Files area.
+Once we have staged the file, it will have moved to the Staged Files area.
 
 **Staged files in GitKraken**
 ![staged_file](figures/staged_file.png)
@@ -134,5 +134,12 @@ After our commit, we will see that GitKraken has changed again. The dotted circl
 This is great, we have added a file to the directory on our computer that is our GitHub repository, and we have staged and commited the new files or changes, which has created a snapshot of our project as it stands at this time. However, everything thus far has only happened on our local computer. Now we want to PUSH all of the new files and/or edits we have made to this repository that lives on GitHub. We will do that in the next step.
 
 ## push files to your GitHub repository
+
+When we are ready to PUSH the files and all associated changes we have made to our project to GitHub, we do that with a PUSH. After you have performed a successfull commit, use the PUSH button in the top-center menu of GitKraken to PUSH the directory contents to your repository on GitHub.
+
+**Push to GitHub in GitKraken**
+![push](figures/gitkraken_push.png)
+
+
 ## open a GitHub issue when assignment is complete
 ## submit peer review by opening a GitHub issue
