@@ -46,7 +46,7 @@ Start GitKraken, and click on the folder icon in the top-left corner. This will 
 
 The only thing you need to decide here is where to put the directory on your computer. I have a directory called _localRepos_ where I clone all of my GitHub repositories to my local computer. It really does not matter, but give it some thought, and generally put the directory in a place where you can access it easily (e.g., do not bury it 10 directories deep) and avoid high-traffic areas like your Desktop, also avoid a locatio that is synced with another service like Dropbox or iCloud. Pick a spot on your computer to place the repository with the browse button, paste the address to the repository that you copied from GitHub in the URL box, and hit the greenish _clone the repo button_ on the lower right. 
 
-**GitKraken: respository management**
+**GitKraken: respository management screen**
 ![gitkraken_clone](figures/gitkraken_clone.png)
 
 **If all went well, you should see a screen like the one below indicating that you successfully cloned the repo.**
@@ -82,10 +82,15 @@ With TextEdit, we need to perform the preliminary step of telling TextEdit that 
 
 Now we can begin creating our markdown document. Markdown itself is outside the scope of this overview, but please read the *introduction/overview* and *reference sheet* materials on under the *resources/markdown* section of the main page of the course website.
 
-**In this simple markdown document, the \# symbol is a marker to create a header one \<h1\>, and the asterisks surrounding our Mayfly genus is a marker to italicize that word.**
+**In this simple markdown document, the # symbol is a marker to create a header one <h1>, and the asterisks surrounding our Mayfly genus is a marker to italicize that word.**
 ![simple_markdown](figures/simple_markdown.png)
 
-**When ready, save the document to the directory on our computer that is a clone of the GitHub repository. Mac's TextEdit gives us several encoding options in the save diaglog box - here we will select UTF-8. Generally try to use UTF.**
+When ready, save the document to the directory on our computer that is a clone of the GitHub repository. There are additional steps that we need to do with Mac's TextEdit when saving:
+* uncheck the box that says *If no extension is provided, use ".txt"*
+* the save dialog box gives us several encoding options, here we will select UTF-8 (generally try to use UTF)
+* use a logical filename and be sure to name it with the extension .md, which indicates that this is a markdown file
+
+**Saving our new markdown file to the directory**
 ![save_to_dir](figures/save_to_dir.png)
 
 When we are ready to save a snapshot of our repository, we go back to GitKraken. Let us do that in the next few steps.
@@ -99,12 +104,34 @@ Okay, let us say that we are at a point where we are ready to save a snapshot of
 * we need to share our progress with colleagues
 * or others...
 
-Go back to GitKraken or restart it if not open, and navigate to the repository where we are working if GitKraken is not already there - remember that you can navigate to different repositories from the file icon in the top-left corner and use the open option from the repository nagivation screen.
+Go back to GitKraken or restart it if not open, and navigate to the repository where we are working if GitKraken is not already open to that location - remember that you can navigate to different repositories from the file icon in the top-left corner and use the open option from the repository nagivation screen.
 
-The dashboard screen for your repository should now look different, notably that there is a dashed-circle above our initial commit snapshot (indicated by the solid circle). This indicates that Git has noticed there is a change to the contents of the repository. You will also notice that the markdown file we 
+The dashboard screen for your repository should now look different, notably that there is a dashed-circle above our initial commit snapshot (indicated by the solid circle). This indicates that Git has noticed there is a change to the contents of the repository. You will also notice that the markdown file we created is in the *Unstaged Files* area.
+
+**Git has detected that we have made a change to the repository**
 ![gitkraken_sees_changes](figures/gitkraken_sees_changes.png)
 
+To create a snapshot of the repository, we first need to stage the files that we have added or edited. In this case there is only one file in the directory but there could be any number. If we hover over the file, we will see an option to stage the file. Press the green *Stage File* button to stage the file.
 
+**Staging in GitKraken**
+![stage_file](figures/stage_file.png)
+
+Once we have staged the file, it will moved to the Staged Files area.
+
+**Staged files in GitKraken**
+![staged_file](figures/staged_file.png)
+
+Now that all of our new files or edits have been staged, we can perform a commit to save a snapshot of the current state of the project. In order to commit, we must supply Git with a commit message. In GitKraken, this is done in the Commit Message area. Type in a short but meaningful message about the changes or progress that are associated with the project for this commit. When you have supplied some text, a green Commit button will appear to perform the commit.
+
+**Commit in GitKraken**
+![commit_message](figures/commit_message.png)
+
+After our commit, we will see that GitKraken has changed again. The dotted circle indicating that Git had detected a change to our repository has changed to a solid circle with the corresponding commit message next to it. This is now the current state of the project.
+
+**Commit in GitKraken**
+![post_commit](figures/post_commit.png)
+
+This is great, we have added a file to the directory on our computer that is our GitHub repository, and we have staged and commited the new files or changes, which has created a snapshot of our project as it stands at this time. However, everything thus far has only happened on our local computer. Now we want to PUSH all of the new files and/or edits we have made to this repository that lives on GitHub. We will do that in the next step.
 
 ## push files to your GitHub repository
 ## open a GitHub issue when assignment is complete
