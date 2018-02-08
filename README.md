@@ -82,7 +82,7 @@ With TextEdit, we need to perform the preliminary step of telling TextEdit that 
 
 Now we can begin creating our markdown document. Markdown itself is outside the scope of this overview, but please read the *introduction/overview* and *reference sheet* materials on under the *resources/markdown* section of the main page of the course website.
 
-**In this simple markdown document, the \# symbol is a marker to create a header one <h1>, and the asterisks surrounding our Mayfly genus is a marker to italicize that word.**
+**In this simple markdown document, the \# symbol is a marker to create a header one \<h1\>, and the asterisks surrounding our Mayfly genus is a marker to italicize that word.**
 ![simple_markdown](figures/simple_markdown.png)
 
 When ready, save the document to the directory on our computer that is a clone of the GitHub repository. There are additional steps that we need to do with Mac's TextEdit when saving:
