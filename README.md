@@ -44,7 +44,7 @@ Start GitKraken, and click on the folder icon in the top-left corner. This will 
 * _URL_ is the address to the GitHub repository that we want to clone (and that we have copied to our clipboard in the above step)
 * _Full path_ will be the full path to the repository on your computer once you have cloned it
 
-The only thing you need to decide here is where to put the directory on your computer. I have a directory called _localRepos_ where I clone all of my GitHub repositories to my local computer. It really does not matter, but give it some thought, and generally put the directory in a place where you can access it easily (e.g., do not bury it 10 directories deep) and avoid high-traffic areas like your Desktop, also avoid a locatio that is synced with another service like Dropbox or iCloud. Pick a spot on your computer to place the repository with the browse button, paste the address to the repository that you copied from GitHub in the URL box, and hit the greenish _clone the repo button_ on the lower right. 
+The only thing you need to decide here is where to put the directory on your computer. I have a directory called _localRepos_ where I clone all of my GitHub repositories to my local computer. Technically, you can put the directory anywhere on your computer's file system and it will work fine, but give it some thought as using a consistent location and naming convention will contribute to a more efficient workflow. Some things to consider: (1) generally put the directory in a place where you can access it easily (e.g., do not bury it 10 directories deep), (2) avoid high-traffic areas like your Desktop, and (3) avoid a location that is synced with another service like Dropbox or iCloud. Pick a spot on your computer to place the repository with the browse button, paste the address to the repository that you copied from GitHub in the URL box, and hit the greenish _clone the repo button_ on the lower right. 
 
 **GitKraken: respository management screen**
 ![gitkraken_clone](figures/gitkraken_clone.png)
@@ -78,12 +78,15 @@ For now, let us start a new, plain-text, markdown file. Mac users can find TextE
 With TextEdit, we need to perform the preliminary step of telling TextEdit that we want to create a plain-text document. To do this, with TextEdit open, click the *Format* option from the menu bar and scroll down to the *Make Plain Tex* option.
 
 **Telling Mac's TextEdit to create a plain-text file**
+<br>add missing image make_plain_text.png<br>
 ![make_plain_text](figures/make_plain_text.png)
 
 Now we can begin creating our markdown document. Markdown itself is outside the scope of this overview, but please read the *introduction/overview* and *reference sheet* materials on under the *resources/markdown* section of the main page of the course website.
 
 **In this simple markdown document, the \# symbol is a marker to create a header one \<h1\>, and the asterisks surrounding our Mayfly genus is a marker to italicize that word.**
+<br>
 ![simple_markdown](figures/simple_markdown.png)
+---
 
 When ready, save the document to the directory on our computer that is a clone of the GitHub repository. There are additional steps that we need to do with Mac's TextEdit when saving:
 * uncheck the box that says *If no extension is provided, use ".txt"*
@@ -104,7 +107,7 @@ Okay, let us say that we are at a point where we are ready to save a snapshot of
 * we need to share our progress with colleagues
 * or others...
 
-Go back to GitKraken or restart it if not open, and navigate to the repository where we are working if GitKraken is not already open to that location - remember that you can navigate to different repositories from the file icon in the top-left corner and use the open option from the repository nagivation screen.
+Go back to GitKraken or restart it if not open, and navigate to the repository where we are working if GitKraken is not already open to that location - remember that you can navigate to different repositories from the file icon in the top-left corner and use the open option from the repository navigation screen.
 
 The dashboard screen for your repository should now look different, notably that there is a dashed-circle above our initial commit snapshot (indicated by the solid circle). This indicates that Git has noticed there is a change to the contents of the repository. You will also notice that the markdown file we created is in the *Unstaged Files* area.
 
@@ -135,7 +138,7 @@ This is great, we have added a file to the directory on our computer that is our
 
 ## push files to your GitHub repository
 
-When we are ready to PUSH the files and all associated changes we have made to our project to GitHub, we do that with a PUSH. After you have performed a successfull commit, use the PUSH button in the top-center menu of GitKraken to PUSH the directory contents to your repository on GitHub.
+When we are ready to PUSH the files and all associated changes we have made to our project to GitHub, we do that with a PUSH. After you have performed a successful commit, use the PUSH button in the top-center menu of GitKraken to PUSH the directory contents to your repository on GitHub.
 
 **Push to GitHub in GitKraken**
 ![push](figures/gitkraken_push.png)
