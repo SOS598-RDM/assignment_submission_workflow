@@ -78,12 +78,15 @@ For now, let us start a new, plain-text, markdown file. Mac users can find TextE
 With TextEdit, we need to perform the preliminary step of telling TextEdit that we want to create a plain-text document. To do this, with TextEdit open, click the *Format* option from the menu bar and scroll down to the *Make Plain Tex* option.
 
 **Telling Mac's TextEdit to create a plain-text file**
-<br>add missing image make_plain_text.png<br>
+<br>
+**add missing image make_plain_text.png**
+<br>
 ![make_plain_text](figures/make_plain_text.png)
 
 Now we can begin creating our markdown document. Markdown itself is outside the scope of this overview, but please read the *introduction/overview* and *reference sheet* materials on under the *resources/markdown* section of the main page of the course website.
 
-**In this simple markdown document, the \# symbol is a marker to create a header one \<h1\>, and the asterisks surrounding our Mayfly genus is a marker to italicize that word.**
+**In this simple markdown document, the** \# **symbol is a marker to create a level one header (two** \# **'s would be a level two header, and so on), and the asterisks surrounding our Mayfly genus is a marker to italicize that word.**
+<br>
 <br>
 ![simple_markdown](figures/simple_markdown.png)
 ---
