@@ -4,7 +4,7 @@
 
 Version control is a critical component of reproducible research. In this class, we will demonstrate the use of Git as an effective tool for version control. GitHub is a cloud-based platform that integrates with Git, and greatly extends its functionality. There is a learning curve to these tools for sure, but they are worth your time and effort. Rather than using manufactured examples, we will provide practical experience to these tools by using them for the homework assignments in this course. 
 
-We have created for each of you a private GitHub repository within the SOS598-RDM GitHub organization. Repositories are identified by lastname_firstname. Only you have write access to your repository, but all students have read access to all repositories. As such, the assignments that you submit are viewable by your classmates, which, as explained below, is a critical features needed to address your peer reviews.
+We have created for each of you a private GitHub repository within the SOS598-RDM GitHub organization. Repositories are identified by lastname_firstname. Only you have write access to your repository, but all students have read access to all repositories. As such, the assignments that you submit are viewable by your classmates, which, as will be explained below, is a critical feature needed to address your peer reviews.
 
 The general workflow to submitting assignments and addressing peer reviews is outlined below. Detailed instructions are provided in subsequent sections of the document. The instructions detailed here employ GitKraken to manage Git, but GitHub's Desktop software, or the command-line-interface would work just as well. There are links to GitKraken and GitHub Desktop on the front page of the course website. We will use the private repository *earl_stevan* as an example for this document.
 
@@ -82,7 +82,7 @@ With TextEdit, we need to perform the preliminary step of telling TextEdit that 
 
 We can now begin creating our markdown document. Markdown itself is outside the scope of this overview, but please have a look at the *introduction/overview* and *reference sheet* materials under the *markdown* section in the list of *resources* on the main page of the course website for more information.
 
-In this simple markdown document, the \# symbol is a marker to create a level-one header (two \#s would be a level-two header, and so on), and the asterisks surrounding our Mayfly genus is a marker to italicize that word.
+**In this simple markdown document, the** \# **symbol is a marker to create a level-one header (two** \#s **would be a level-two header, and so on), and the asterisks surrounding our Mayfly genus is a marker to italicize that word.**
 
 ![simple_markdown](figures/simple_markdown.png)
 ---
@@ -147,13 +147,22 @@ If all went well, you should see a small pop-up in GitKraken indicating that you
 **New file added to our GitHub repository**
 ![gitkraken_push](figures/changes_in_github.png)
 
-In this case, because the file we added is a markdown file, clicking the link to the file in GitHub will open the file in the GitHub viewer. Note the markdown codes (headers, italics) are rendered in the viewer.
+In this case, because the file we added is a markdown file, when viewed in GitHub (by clicking on the name of the file), the markdown notation that we used for headers and italics are rendered on the screen.
 
 **Our newly added file displayed in GitHub**
 ![markdown_in_github](figures/markdown_in_github.png)
 
 
 ## open a GitHub issue when assignment is complete
+
+The above steps are repeated as often as needed and appropriate, and typically many, many times over the life of a project. In our case, once you are ready to submit a final version of your project for a grade, you will open an issue after your last commit that will alert me that you are submitting your assignment. GitHub issues are a fabulous tool that facilitate project-specific discussions with other GitHub users inside or outside of your team. I also use issues as helpful reminders of problems or areas of a project that need attention, or where I have ideas to improve the project.
+
+We will need a few pieces of information in order to create our issue, including the link to the file that is to be graded and the SHA of the commit that corresponds to the version (snapshot, or commit) of the project that is to be graded. Your repositories are relatively empty so it will be fairly obvious what you are submitted to be graded even without passing along those details, but remember that a goal here is to gain some familiarity with GitHub and its many features.
+
+The link to the file is what we had clicked on above to view our file in GitHub. Copy that url so that we can paste it into our issue when we create it. The SHA is the output of an algorithm generated from the contents of a file or directory. We can get the SHA of our commit from our commit history. To view the history of our project, we click on *commits* in our GitHub repository.
+
+**Click on commits in our repository to see a history of our project**
+![show-history](figures/show-history.png)
 
 
 
