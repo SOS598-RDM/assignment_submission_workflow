@@ -68,7 +68,7 @@ I want start with a markdown file because of its simplicity, but also because we
 
 For this example, I will use Mac's TextEdit. For those of you working on Windows machines, Notepad will allow you to create plain text files. There are definitely better text editors but we can use these tools that come pre-installed (TextEdit for Mac, Notepad for Windows) for now. Note that I had mentioned earlier in the course that we could use Microsoft Word so long as we save the file as a plain text files, but I have encountered a problem using that approach so please avoid using Word.
 
-First, let us navigate to the directory on our computer, in my case *localRepos/earl_stevan*. You will notice straightaway that there is already a file in the repository titled *README.md*. This is a plain text, markdown file that GitHub added to your repository when it was created. It is file designed to provide some overview information about the repository. In fact, what you are reading currently is the README.md file in the repository for this guide. For this course, you can ignore the README file, but, in other circumstances, they are a great tool for providing details about the repository, including information for your future self, so take advantage of them.
+First, let us navigate to the directory on our computer, in my case *localRepos/earl_stevan*. You will notice straightaway that there is already a file in the repository titled *README.md*. This is a plain text, markdown file that GitHub added to your repository when it was created. The README is intended to provide some overview information about the repository. In fact, what you are reading currently is the README.md file in the repository for this guide. For this course, you can ignore the README file, but, in other circumstances, they are a great tool for providing details about the repository, including information to your future self, so take advantage of them.
 
 **The contents of our cloned repository on the local computer as viewed through Mac Finder**
 ![readme_in_dir](figures/readme_in_dir.png)
@@ -78,16 +78,12 @@ For now, let us start a new, plain-text, markdown file. Mac users can find TextE
 With TextEdit, we need to perform the preliminary step of telling TextEdit that we want to create a plain-text document. To do this, with TextEdit open, click the *Format* option from the menu bar and scroll down to the *Make Plain Tex* option.
 
 **Telling Mac's TextEdit to create a plain-text file**
-<br>
-**add missing image make_plain_text.png**
-<br>
 ![make_plain_text](figures/make_plain_text.png)
 
-Now we can begin creating our markdown document. Markdown itself is outside the scope of this overview, but please read the *introduction/overview* and *reference sheet* materials on under the *resources/markdown* section of the main page of the course website.
+We can now begin creating our markdown document. Markdown itself is outside the scope of this overview, but please have a look at the *introduction/overview* and *reference sheet* materials under the *markdown* section in the list of *resources* on the main page of the course website for more information.
 
-In this simple markdown document, the \# symbol is a marker to create a level one header (two \#s would be a level two header, and so on), and the asterisks surrounding our Mayfly genus is a marker to italicize that word.
-<br>
-<br>
+In this simple markdown document, the \# symbol is a marker to create a level-one header (two \#s would be a level-two header, and so on), and the asterisks surrounding our Mayfly genus is a marker to italicize that word.
+
 ![simple_markdown](figures/simple_markdown.png)
 ---
 
