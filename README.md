@@ -9,7 +9,7 @@ We have created for each of you a private GitHub repository within the SOS598-RD
 The general workflow to submitting assignments and addressing peer reviews is outlined below. Detailed instructions are provided in subsequent sections of the document. The instructions detailed here employ GitKraken to manage Git, but GitHub's Desktop software, or the command-line-interface would work just as well. There are links to GitKraken and GitHub Desktop on the front page of the course website. We will use the private repository *earl_stevan* as an example for this document.
 
 **overview of steps**
-1. clone your GitHub repository
+1. [clone your GitHub repository](https://github.com/SOS598-RDM/assignment_submission_workflow#clone-your-github-repository)
 2. populate your repository
 3. add/stage, commit
 4. push files to your GitHub repository
