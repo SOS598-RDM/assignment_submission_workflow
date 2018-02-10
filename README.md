@@ -10,11 +10,11 @@ The general workflow to submitting assignments and addressing peer reviews is ou
 
 **overview of steps**
 1. [clone your GitHub repository](https://github.com/SOS598-RDM/assignment_submission_workflow#clone-your-github-repository)
-2. populate your repository
-3. add/stage, commit
-4. push files to your GitHub repository
-5. open a GitHub issue when assignment is complete
-6. submit peer review by opening a GitHub issue
+2. [populate your repository](https://github.com/SOS598-RDM/assignment_submission_workflow#populate-your-repository)
+3. [add/stage, commit](https://github.com/SOS598-RDM/assignment_submission_workflow#addstage-commit)
+4. [push files to your GitHub repository](https://github.com/SOS598-RDM/assignment_submission_workflow#push-files-to-your-github-repository)
+5. [open a GitHub issue when the assignment is complete](https://github.com/SOS598-RDM/assignment_submission_workflow#open-a-github-issue-when-assignment-is-complete)
+6. [submit peer review by opening a GitHub issue](https://github.com/SOS598-RDM/assignment_submission_workflow#submit-peer-review-by-opening-a-github-issue)
 
 ## clone your GitHub repository
 
@@ -176,16 +176,37 @@ To create an issue, first click on the *Issues* tab in the repository, then clic
 **creating an Issue in our GitHub repository**
 ![issues-tab](figures/issues-tab.png)
 
-The title of our issue should have the format *mark assignment repository name*, so, for example, if this were the DMP assignment, this issue should have the title *mark DMP earl\_stevan*. The body of the issue should contain the SHA of the commit, and the url to the file that you are submitting. Finally, the body of the issue should include a mention to Stevan using his GitHub user name (srearl), and, if the assignment is one that is to be peer-reviewed, a mention to the GitHub user name of your peer reviewer (these will be provided). Mentions send a notification to the addressee alerting them of GitHub activity. Like some other social-media platforms (e.g., Twitter), mentions in GitHub use the @user-name format. When complete, submit the issue by clicking the green *Submit new issue* button.
+The title of our issue should have the format *mark assignment repository name*, so, for example, if this were the DMP assignment, this issue should have the title *mark DMP earl\_stevan*. The body of the issue should contain the SHA of the commit, and the url to the file that you are submitting, and a *mention* to Stevan using his GitHub user name (srearl). Mentions send a notification to the addressee alerting them of GitHub activity. Like some other social-media platforms (e.g., Twitter), mentions in GitHub use the @user-name format. When complete, submit the issue by clicking the green *Submit new issue* button.
 
 **populating and submitting our Issue**
 ![completed-issue](figures/completed-issue.png)
 
 We now see that there is one issue in the *Issues* tab of our repository.
 
-**Our repository now has one issue**
+**our repository now has one issue**
 ![one-new-issue](figures/one-new-issue.png)
 
 This concludes the steps for submitting your assignment. Please see the next section for addressing the peer review.
 
 ## submit peer review by opening a GitHub issue
+
+Several of the assignments planned for the RDM course have a peer-review component. For these assignments, after assignment submission, we will randomly assign each student to review the work of a peer. Each peer-review assignment will take the form of an issue that is assigned to the reviewer. This is somewhat opposite the flow of the GitHub issue created when submitting your assignment in that we will create an issue that is assigned to the reviewer.
+
+We can see how this will work with our example repository.
+
+Upon receiving your GitHub mention that you have submitted your assignment (per the above step), Stevan will create a new issue assigned (as an issue *Assignee*) to a random peer. I am assigning myself as the Assignee in the example screenshot below but this would normally be the GitHub user name of one of your peers. To be clear, this is a step that the course instructors will address and is included here only to explain the process.
+
+**peer review assignment**
+![assign-peer-review](figures/assign-peer-review.png)
+
+Okay, so the instructors create a new issue for each submitted assignment and assign a random peer to review that assignment. In this setup, the reviewer is the *Assignee* assigned to that issue - the Assignee will will receive a notification when that issue is created. When you (the reviewer/Assignee) receive a notification (see here if you have not configured your notification settings in GitHub to receive notifications by email) that the issue has been created, navigate to the issue in GitHub, which will look something like the screenshot below. There are several ways to address the content of the review:
+* write the text in a text editor then copy it into the comment box
+* type directly into the comment box
+* attach a file to the issue with the review content (GitHub allows GIF, JPEG, JPG, PNG, DOCX, GZ, LOG, PDF, PPTX, TXT, XLXS, and ZIP files as issue attachments
+
+The instructors would prefer that you please submit your review through the comment box either by copying and pasting from another file or typing directly into the comment box, but know that it is possible to attach files to GitHub issues. Before submitting the review, please be sure to include a mention to Stevan (@srearl) in the comment box.
+
+**an assigned issue**
+![assigned-issue](figures/assigned-issue.png)
+
+
