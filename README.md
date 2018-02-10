@@ -157,13 +157,17 @@ In this case, because the file we added is a markdown file, when viewed in GitHu
 
 The above steps are repeated as often as needed and appropriate, and typically many, many times over the life of a project. In our case, once you are ready to submit a final version of your project for a grade, you will open an issue after your last commit that will alert me that you are submitting your assignment. GitHub issues are a fabulous tool that facilitate project-specific discussions with other GitHub users inside or outside of your team. I also use issues as helpful reminders of problems or areas of a project that need attention, or where I have ideas to improve the project.
 
-We will need a few pieces of information in order to create our issue, including the link to the file that is to be graded and the SHA of the commit that corresponds to the version (snapshot, or commit) of the project that is to be graded. Your repositories are relatively empty so it will be fairly obvious what you are submitted to be graded even without passing along those details, but remember that a goal here is to gain some familiarity with GitHub and its many features.
+We will need a few pieces of information in order to create our issue, including the link to the file that is to be graded and the SHA of the commit that corresponds to the version (snapshot, or commit) of the project that is to be graded. Your repositories are relatively empty so it will be fairly obvious what you are submitting to be graded even without passing along those details, but a goal here is to gain some familiarity with GitHub and its many features.
 
-The link to the file is what we had clicked on above to view our file in GitHub. Copy that url so that we can paste it into our issue when we create it. The SHA is the output of an algorithm generated from the contents of a file or directory. We can get the SHA of our commit from our commit history. To view the history of our project, we click on *commits* in our GitHub repository.
+The link to the file is what we had clicked on above to view our file in GitHub. Copy that url so that we can paste it into our issue when we create it. The SHA is the output of an algorithm generated from the contents of a file or directory, this gives us a way to reference commits. We can get the SHA of our commit from our commit history. To view the history of our project, we click on *commits* in our GitHub repository.
 
 **Click on commits in our repository to see a history of our project**
 ![show-history](figures/show-history.png)
 
+There are only two commits in the history of this project, the initial commit when the repository was established, and our initial commit of the mayfly document. These are ordered chronologically with the most recent commit first. To get the SHA of any given commit, click on the clipboard icon on the row of the commit you want to reference. In our case, the most recent commit is almost certainly going to be the commit you want to reference for your assignment, but references commits can be important on larger projects or when working on teams.
+
+**Click on the clipboard icon on the row of the commit we want to reference to get the SHA for that commit**
+![get-sha](figures/get-sha.png)
 
 
 ## submit peer review by opening a GitHub issue
