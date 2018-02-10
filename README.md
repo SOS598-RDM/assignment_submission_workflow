@@ -54,9 +54,9 @@ The only thing you need to decide here is where to put the directory on your com
 
 You can navigate to the repository immediately after cloning by hitting _OK_ when GitKraken asks if you want to open the repository now, or you can navigate to it later (or any time) by going back to the folder icon at the top-left of GitKraken, and instead of selecting the clone option, select the open option and navigate to your cloned directory.
 
-At this point, you can navigate to the directory you just cloned to your computer using Finder or Windows Explorer, for example, just like you would any other directory on your computer. We will use GitKraken to facilitate the transfer of files from the directory on our local computer and our GitHub repository, as well as other Git functions, but the directory itself is just a folder on your computer much like any other folder except for a few unseen files needed by Git and GitHub.
+At this point, you can navigate to the directory you just cloned to your computer using, for example, Finder or Windows Explorer just as you would any other directory on your computer. We will use GitKraken to facilitate the transfer of files from the directory on our local computer and our GitHub repository, as well as other Git functions, but the directory itself is just a folder on your computer much like any other folder except for a few unseen files needed by Git and GitHub.
 
-**Using Mac's Finder, we see the *earl_stevan* repository that we just cloned from GitHub as a folder/directory in the *localRepos* directory on my MacBook.** 
+**Using Mac's Finder, we see the *earl_stevan* repository that we just cloned from GitHub as a folder/directory in the *localRepos* directory on this MacBook.** 
 ![local_directory](figures/local_directory.png)
 
 
@@ -164,10 +164,28 @@ The link to the file is what we had clicked on above to view our file in GitHub.
 **Click on commits in our repository to see a history of our project**
 ![show-history](figures/show-history.png)
 
-There are only two commits in the history of this project, the initial commit when the repository was established, and our initial commit of the mayfly document. These are ordered chronologically with the most recent commit first. To get the SHA of any given commit, click on the clipboard icon on the row of the commit you want to reference. In our case, the most recent commit is almost certainly going to be the commit you want to reference for your assignment, but references commits can be important on larger projects or when working on teams.
+There are only two commits in the history of this project, the initial commit when the repository was established, and our initial commit of the mayfly document. These are ordered chronologically from most recent to oldest. To get the SHA of any given commit, click on the clipboard icon on the row of the commit you want to reference. In our case, the most recent commit is almost certainly going to be the commit you want to reference for your assignment, but referencing commits can be important on larger projects or when working in teams.
 
 **Click on the clipboard icon on the row of the commit we want to reference to get the SHA for that commit**
 ![get-sha](figures/get-sha.png)
 
+With the SHA copied to our computer's clipboard and the url to the file you are submitting (referenced above), we now have the pieces that we need to create an issue. 
+
+To create an issue, first click on the *Issues* tab in the repository, then click on the green *New Issue* button.
+
+**creating an Issue in our GitHub repository**
+![issues-tab](figures/issues-tab.png)
+
+The title of our issue should have the format *mark assignment repository name*, so, for example, if this were the DMP assignment, this issue should have the title *mark DMP earl\_stevan*. The body of the issue should contain the SHA of the commit, and the url to the file that you are submitting. Finally, the body of the issue should include a mention to Stevan using his GitHub user name (srearl), and, if the assignment is one that is to be peer-reviewed, a mention to the GitHub user name of your peer reviewer (these will be provided). Mentions send a notification to the addressee alerting them of GitHub activity. Like some other social-media platforms (e.g., Twitter), mentions in GitHub use the @user-name format. When complete, submit the issue by clicking the green *Submit new issue* button.
+
+**populating and submitting our Issue**
+![completed-issue](figures/completed-issue.png)
+
+We now see that there is one issue in the *Issues* tab of our repository.
+
+**Our repository now has one issue**
+![one-new-issue](figures/one-new-issue.png)
+
+This concludes the steps for submitting your assignment. Please see the next section for addressing the peer review.
 
 ## submit peer review by opening a GitHub issue
