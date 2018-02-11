@@ -190,7 +190,7 @@ This concludes the steps for submitting your assignment. Please see the next sec
 
 ## submit peer review by opening a GitHub issue
 
-Several of the assignments planned for the RDM course have a peer-review component. For these assignments, after assignment submission, we will randomly assign each student to review the work of a peer. Each peer-review assignment will take the form of an issue that is assigned to the reviewer. This is somewhat opposite the flow of the GitHub issue created when submitting your assignment in that we will create an issue that is assigned to the reviewer.
+Several of the assignments planned for the RDM course have a peer-review component. For these assignments, after assignment submission, the instructors will randomly assign each student to review the work of a peer. Each peer-review assignment will take the form of a GitHub issue that is assigned to the reviewer. This is somewhat opposite the flow of the GitHub issue created when submitting your assignment in that the instructors will create an issue that is assigned to the reviewer.
 
 We can see how this will work with our example repository.
 
@@ -199,14 +199,14 @@ Upon receiving your GitHub mention that you have submitted your assignment (per 
 **peer review assignment**
 ![assign-peer-review](figures/assign-peer-review.png)
 
-Okay, so the instructors create a new issue for each submitted assignment and assign a random peer to review that assignment. In this setup, the reviewer is the *Assignee* assigned to that issue - the Assignee will will receive a notification when that issue is created. When you (the reviewer/Assignee) receive a notification (see here if you have not configured your notification settings in GitHub to receive notifications by email) that the issue has been created, navigate to the issue in GitHub, which will look something like the screenshot below. There are several ways to address the content of the review:
+Okay, so the instructors create a new issue for each submitted assignment and assign a random peer to review that assignment. In this setup, the reviewer is the *Assignee* assigned to that issue - the Assignee will receive a notification when that issue is created. When you (the reviewer/Assignee) receive a notification (**please be sure that you have set your GitHub email notificication preferences such that you will be notified about Comments on Issues and Pull Requests**) that the issue has been created, navigate to the issue in GitHub, which will look something like the screenshot below. There are several ways to address the content of the review:
 * write the text in a text editor then copy it into the comment box
 * type directly into the comment box
-* attach a file to the issue with the review content (GitHub allows GIF, JPEG, JPG, PNG, DOCX, GZ, LOG, PDF, PPTX, TXT, XLXS, and ZIP files as issue attachments
+* attach a file to the issue with the review content (GitHub allows GIF, JPEG, JPG, PNG, DOCX, GZ, LOG, PDF, PPTX, TXT, XLXS, and ZIP files as issue attachments)
 
 The instructors would prefer that you please submit your review through the comment box either by copying and pasting from another file or typing directly into the comment box, but know that it is possible to attach files to GitHub issues. Before submitting the review, please be sure to include a mention to Stevan (@srearl) in the comment box.
 
 **an assigned issue**
 ![assigned-issue](figures/assigned-issue.png)
 
-
+That concludes the process for submitting your review.
