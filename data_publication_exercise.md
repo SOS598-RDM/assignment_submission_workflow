@@ -61,7 +61,7 @@ After having added appropriate metadata using the web-based form, added data fil
 <hr>
 <br>
 
-**then assigning Users/Groups: `Assign Roles to Users/Groups`.** Because of the association with ASU, our names are registered in the system and searchable in the dialog box.
+**then assigning Users/Groups: `Assign Roles to Users/Groups`.** Because of the association with ASU, our names are registered in the system and searchable in the dialog box. Save changes, and you are done.
 <br>
 <hr>
 
