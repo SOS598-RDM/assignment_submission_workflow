@@ -3,7 +3,8 @@
 1. [overview](https://github.com/SOS598-RDM/assignment_submission_workflow/blob/master/data_publication_exercise.md#overview)
 2. [accessing and navigating HDD](https://github.com/SOS598-RDM/assignment_submission_workflow/blob/master/data_publication_exercise.md#accessing-and-navigating-hdd)
 3. [adding your data set](https://github.com/SOS598-RDM/assignment_submission_workflow/blob/master/data_publication_exercise.md#adding-your-data-set)
-
+4. [add data file(s)](https://github.com/SOS598-RDM/assignment_submission_workflow/blob/master/data_publication_exercise.md#add-data-files)
+5. [save and add collaborators](https://github.com/SOS598-RDM/assignment_submission_workflow/blob/master/data_publication_exercise.md#save-and-add-collaborators)
 
 ## overview
 
@@ -25,11 +26,9 @@ Once you have logged into HDD and navigated to the SOS\_RDM\_2018\_demoverse, yo
 
 <br>
 <hr>
-<br>
 
-![add-data](data_publication_figures/add_data.png)
+![add_data](data_publication_figures/add_data.png)
 
-<br>
 <hr>
 <br>
 
@@ -42,11 +41,9 @@ HDD does not accommodate metadata for individual data files so metadata, such as
 
 <br>
 <hr>
-<br>
 
-![upload-files](data_publication_figures/upload_files.png)
+![upload_files](data_publication_figures/upload_files.png)
 
-<br>
 <hr>
 <br>
 
@@ -55,22 +52,20 @@ HDD does not accommodate metadata for individual data files so metadata, such as
 
 After having added appropriate metadata using the web-based form, added data file(s), and reviewed the information for completeness and accuracy, save your data set with the `Save Dataset` button at the bottom of the form. Once saved, add Stevan and Philip as curators to your data set so that we are alerted of your submission and can access the information.
 
-add curators by first editing permissions...
+*add curators by first editing permissions of the data set: `Edit` > `Permissions` > `Dataset`* 
 <br>
 <hr>
-<br>
 
 ![edit_permissions](data_publication_figures/edit_permissions.png)
 
-<br>
 <hr>
 <br>
 
-then assigning Users/Groups...
+*then assigning Users/Groups: `Assign Roles to Users/Groups`* Because of the association with ASU, our names are registered in the system and searchable in the dialog box.
 <br>
 <hr>
-<br>
+
 ![assign_curator_roles](data_publication_figures/assign_curator_roles.png)
-<br>
+
 <hr>
 <br>
