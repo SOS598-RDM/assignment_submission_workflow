@@ -2,7 +2,7 @@
 
 1. [overview](https://github.com/SOS598-RDM/assignment_submission_workflow/blob/master/data_publication_exercise.md#overview)
 2. [accessing and navigating HDD](https://github.com/SOS598-RDM/assignment_submission_workflow/blob/master/data_publication_exercise.md#accessing-and-navigating-hdd)
-3. [adding your data set](https://github.com/SOS598-RDM/assignment_submission_workflow/blob/master/data_publication_exercise.md#adding-your-data-set)
+f. [adding your data set](https://github.com/SOS598-RDM/assignment_submission_workflow/blob/master/data_publication_exercise.md#adding-your-data-set)
 4. [add data file(s)](https://github.com/SOS598-RDM/assignment_submission_workflow/blob/master/data_publication_exercise.md#add-data-files)
 5. [save and add collaborators](https://github.com/SOS598-RDM/assignment_submission_workflow/blob/master/data_publication_exercise.md#save-and-add-collaborators)
 
@@ -10,34 +10,31 @@
 
 In this exercise, you will submit a well-documented set of your own data (or
 data related to your research) to [Harvard's demo dataverse
-(HDD)](https://demo.dataverse.org/). HDD is a development or scratch environment
-version of the University's dataverse repository - please be sure that you
-address this exercise in the demo environment!
+(HDD)](https://demo.dataverse.org/). HDD is a development or scratch
+environment version of the University's dataverse repository - please be sure
+that you address this exercise in the demo environment!
 
 The infrastructure and metadata standard that HDD employs does not accommodate
-metadata for individual data files. An implication of this limitation is that we
-are unable to add metadata, such as the meaning of columns in our tabular data,
-units of measure, missing value codes, or factor levels for each data file. One
-approach to adding these critical metadata is to include the details in the data
-files themselves. For this exercise, use the approach that we went through in
-class to add metadata as a yaml header at the top of your data file - these
-details can be written by hand, with the R csvy package, or some combination of
-the two. Please revisit the GitHub
-[repository](https://github.com/SOS598-RDM/rdm-lecture-metadata) for a review of
-our work in class.
+metadata for individual data files. An implication of this limitation is that
+we are unable to add metadata, such as the meaning of columns in our tabular
+data, units of measure, missing value codes, or factor levels for each data
+file. One approach to adding these critical metadata is to include the details
+in the data files themselves. 
 
+pending... For this exercise, use the approach that we went through in class to add metadata as a yaml header at the top of your data file - these details can be written by hand, with the R csvy package, or some combination of the two. Please revisit the GitHub [repository](https://github.com/SOS598-RDM/rdm-lecture-metadata) for a review of our work in class. *
 
 ## accessing and navigating HDD
 
 ASU has an institutional affiliation with the Harvard dataverse so you will use
-ASU's ASURITE system to access HDD. Once you have authenticated with ASURITE by
-logging into MyASU or your ASU email, you can log into HDD by identifying
-Arizona State University as your institution.
+ASU's ASURITE system to access HDD. Note that you may need to have enabled the
+ASU VPN is attempting to access the HDD from an off-campus network. Once you
+have authenticated with ASURITE by logging into MyASU or your ASU email, you
+can log into HDD by identifying Arizona State University as your institution.
 
 A dataverse (a collection of datasets) has been created within HDD for this
-course, and is where you will publish your data set. Please see [link
-to](https://demo.dataverse.org/dataverse/ASU_SOS_RDM_2019) link or search for
-*ASU_SOS_RDM_2019* within HDD to locate the dataverse for this class.
+course, and is where you will publish your dataset:
+[ASU_SOS_519](https://demo.dataverse.org/dataverse/ASU_SOS_519) (or search for
+ASU_SOS_519 with the HDD). 
 
 
 ## adding your data set
@@ -84,8 +81,8 @@ form.
 After having added appropriate metadata using the web-based form, added data
 file(s), and reviewed the information for completeness and accuracy, save your
 data set with the `Save Dataset` button at the bottom of the form. Once saved,
-add Stevan and Philip as curators to your data set so that we are alerted of
-your submission and can access the information.
+add me (Stevan) as a curator to your data set so that I am alerted to your
+submission and can access the information.
 
 **add curators by first editing permissions of the data set: `Edit` > `Permissions` > `Dataset`**
 <br>
