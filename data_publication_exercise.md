@@ -50,6 +50,8 @@ HDD does not accommodate metadata for individual data files so metadata, such as
 
 ## save and add collaborators
 
+*Note for fall **2021 RDM students**: adding collaborators is not an option with the current suite of permissions so please just save your datasets when complete as noted below - no need to add collaborators.*
+
 After having added appropriate metadata using the web-based form, added your data file (and metadata file is appropriate), and reviewed the information for completeness and accuracy, save your data set with the `Save Dataset` button at the bottom of the form. Once saved, add me as a curator to your data set so that I am alerted to your submission and can access the information.
 
 **add curators by first editing permissions of the data set: `Edit` > `Permissions` > `Dataset`**
