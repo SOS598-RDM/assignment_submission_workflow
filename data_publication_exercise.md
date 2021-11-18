@@ -37,7 +37,7 @@ Add appropriate metadata for your data set using the web-based form. The metadat
 
 ## add a data file
 
-HDD does not accommodate metadata for individual data files so metadata, such as how to interpret columns of tabular data, must be added to the file itself outside of HDD as noted above. Select and upload your data file. Depending on how you constructed metadata to describe the contents of your data file, upload accompanying metadata files as appropriate.
+Select and upload your data file. Depending on how you constructed metadata to describe the contents of your data file (see below), upload accompanying metadata file(s) if and as appropriate.
 
 <br>
 <hr>
@@ -47,6 +47,9 @@ HDD does not accommodate metadata for individual data files so metadata, such as
 <hr>
 <br>
 
+### data-resource metadata
+
+HDD does not accommodate metadata for individual data resources. That is, there is not a way to associate metadata about a data resource with the data resource explicitly. For example, I cannot upload a tabular data file then describe the meaning of variables, units of observation, missing value codes, or other details of that tabular data resource directly in the HDD environment. As such, we need to provide metadata about our data resources using alternate approaches. One way to do this *within* HDD would be to provide data-resource metadata using one or more DESCRIPTION metadata fields in HDD. However, that is not optimal as the DESCRIPTION metadata field is intended to provide metadata about the study generally. Another approach would be to embed metadata directly in the data file, such as using the [csvy](https://csvy.org/) approach that we reviewed in class. Yet another approach is to include files that contain data-resource metadata in accompanying files. An accompanying metadata file could be in the form of a well-structured, thoughtfully crafted README or something more structured such as a json file corresponding to the [frictionless](https://frictionlessdata.io/) schema. Please see the course [resource](https://github.com/SOS598-RDM/rdm-lecture-metadata/blob/master/data/stream_chemistry_metadata.md#iii-include-metadata-in-a-well-constructed-readme) on this topic for a more comprehensive overview.
 
 ## save and add collaborators
 
