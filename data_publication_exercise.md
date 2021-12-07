@@ -12,6 +12,18 @@ In this exercise, you will submit a well-documented set of your own data (or dat
 
 The infrastructure and metadata standard that HDD employs does not accommodate metadata for individual data files. An implication of this limitation is that we are unable to add metadata, such as the meaning of columns in our tabular data, units of measure, missing value codes, or factor levels for each data file. There are several approaches to addressing these critical metadata, such as embedding the metadata in the data file, or adding structured (e.g., frictionless) or unstructured (e.g., a README) metadata in an accompanying metadata file. Please review the materials in [generating metadata for tabular and non-tabular data resources](https://github.com/SOS598-RDM/rdm-lecture-metadata/blob/master/data/stream_chemistry_metadata.md) for an overview of different approaches.
 
+## rubric
+
+[ ] dataset:   features a rich title that conveys dataset subject, and, as much as possible, geographic and spatial extent
+[ ] dataset:   includes relevant, domain-specific keywords that will optimize user search and retrieval
+[ ] dataset:   features overview documentation detailing the nature of the study, study objectives, and other relevant aspects of the study
+[ ] dataset:   includes methods documentation detailing how data were collected and/or generated
+[ ] dataset:   includes author details, including name, email, and ORCiD
+[ ] dataset:   dates in metadata textual descriptions, and within data conform to ISO standards
+[ ] data:      well-structured (tidy)
+[ ] data:      the meaning of special characters, such as those representing missing values, are articulated clearly
+[ ] variables: meaning of each variable is articulated clearly
+[ ] variables: if relevant, units of each variable is articulated clearly
 
 ## accessing and navigating HDD
 
